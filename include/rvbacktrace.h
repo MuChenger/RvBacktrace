@@ -4,9 +4,7 @@
 #include <stdio.h>
 #include <stdint.h>
 
-#ifdef RT_VER_NUM
 #include "rtthread.h"
-#endif
 
 /* User Configure */
 // #define BACKTRACE_USE_FP // To enable this option, add the [-fno-omit-frame-pointer] option to ASM,C/C++.
